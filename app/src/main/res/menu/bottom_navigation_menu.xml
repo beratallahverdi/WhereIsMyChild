@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/bottom_nav_info"
+            android:icon="@drawable/ic_accountbox"
+            android:iconTint="@color/BottomAppBarSecondaryColor"
+            android:title="@string/my_information" />
+       <!-- <item
+            android:id="@+id/bottom_nav_family"
+            android:icon="@drawable/ic_people"
+            android:iconTint="@color/BottomAppBarSecondaryColor"
+            android:title="@string/my_family" /> -->
+        <item
+            android:id="@+id/bottom_nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:iconTint="@color/BottomAppBarSecondaryColor"
+            android:title="@string/settings" />
+
+        <item
+            android:id="@+id/bottom_nav_signout"
+            android:icon="@drawable/ic_settings"
+            android:iconTint="@color/BottomAppBarSecondaryColor"
+            android:title="@string/sign_out" />
+    </group>
+</menu>

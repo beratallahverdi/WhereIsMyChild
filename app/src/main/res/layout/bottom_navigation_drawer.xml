@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_view_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/BottomNavigationPrimaryColor"
+    android:orientation="vertical">
+
+    <!-- navigation header layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/BottomNavigationPrimaryColor">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/bottom_nav_person_image"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:contentDescription="TODO"
+            app:civ_border_color="@color/secondaryDarkColor"
+            app:civ_border_width="1dp"
+            app:srcCompat="@mipmap/logo" />
+
+        <TextView
+            android:id="@+id/bottom_nav_person_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:layout_toStartOf="@+id/close_image_view"
+            android:layout_toEndOf="@+id/bottom_nav_person_image"
+            android:text="@string/name"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bottom_nav_person_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bottom_nav_person_name"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="2dp"
+            android:layout_toStartOf="@+id/close_image_view"
+            android:layout_toEndOf="@+id/bottom_nav_person_image"
+            android:text="@string/email"
+            android:textColor="@android:color/black" />
+
+
+        <ImageView
+            android:id="@+id/close_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:padding="16dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_close" />
+
+        <View
+            android:id="@+id/divider_one"
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:layout_below="@+id/bottom_nav_person_email"
+            android:layout_marginTop="15dp"
+            android:background="#447e7e7e" />
+    </RelativeLayout>
+
+    <!-- navigation view -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        android:background="@color/BottomNavigationPrimaryColor"
+        app:menu="@menu/bottom_navigation_menu" />
+
+</LinearLayout>

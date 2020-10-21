@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ViewAreaPadding">48dp</dimen>
+    <dimen name="ViewAreaMargin">12dp</dimen>
+    <dimen name="FloatingButtonMargin">24dp</dimen>
+</resources>

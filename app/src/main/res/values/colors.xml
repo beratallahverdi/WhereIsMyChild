@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#ffee58</color>
+    <color name="primaryLightColor">#ffff8b</color>
+    <color name="primaryDarkColor">#c9bc1f</color>
+    <color name="secondaryColor">#ba68c8</color>
+    <color name="secondaryLightColor">#ee98fb</color>
+    <color name="secondaryDarkColor">#883997</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="BottomAppBarPrimaryColor">#FDB201</color>
+    <color name="BottomAppBarSecondaryColor">#6D6C6C</color>
+
+    <color name="colorPrimary">#FFEE58</color>
+    <color name="colorPrimaryDark">#c9bc1f</color>
+    <color name="colorPrimaryLight">#ffff8b</color>
+    <color name="colorSecondary">#ba68c8</color>
+    <color name="colorSecondaryDark">#883997</color>
+    <color name="colorSecondaryLight">#ee98fb</color>
+    <color name="colorTextP">#9c27b0</color>
+    <color name="colorTextS">#f3e5f5</color>
+    <color name="BottomNavigationPrimaryColor">#FDEC27</color>
+</resources>
